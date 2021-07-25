@@ -1,0 +1,126 @@
+.header{
+    background: url('./img/image.png') no-repeat center center fixed;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 700px;
+    overflow: hidden;
+}
+.header-text{
+    position: relative;
+    left: 1em;
+    top: 4em;
+    padding: 2em 0;
+    color: white;
+    font-family: Fascinate Catamaran;
+}
+.header-text a{
+    border-radius: 10%;
+    background-color: #213e53;
+    color:aliceblue
+}
+.header-text a:hover{
+    border-radius: 10%;
+    background-color: white;
+    color: #025596;
+}
+.Fascinate{
+    font-family: Fascinate Inline;
+    font-size: 35px;
+    margin-top: 1rem;
+    font-size: 6.25rem;
+    text-decoration: none;
+    white-space: nowrap;
+    color:aqua;
+    text-align: center;
+}
+.fifa-text{
+    color: gray;
+    font-family: 'Courier New', Courier, monospace;
+}
+.text-par{
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.mid{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.para{
+    font: 1em sans-serif;
+    color: gray;
+}
+
+.PRESIDENT{
+    display: flex;
+    margin-top: 2rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-flow: column wrap;
+    border-bottom: 3px solid rgb(204, 201, 201);
+}
+
+@media (min-width: 600px){
+    .PRESIDENT{
+        text-align: center;
+    }
+    .dis-flex{
+        display: flex;
+        align-items: baseline;
+    }
+}
+
+.all{
+    margin-top: 2rem;;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border-bottom: 3px solid rgb(192, 190, 190);
+}
+.img{
+    height: 330px;
+}
+.body{
+    height: 140px;
+}
+.tok{
+    font-family: Fascinate;
+}
+
+@media (max-width: 600px){
+    .img{
+        height: 100%;
+    }
+}
+.img-flex{
+    margin: 2rem ;
+    padding: 2rem;
+}
+.partners{
+    margin-top: 2rem;
+    border-bottom: 3px solid rgb(204, 202, 202);
+}
+.part{
+    padding: 1.5rem;
+}
+.part1{
+    padding: 1.5rem;
+}
+.terms{
+    display: flex;
+    margin: 1rem;
+    padding: 0rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.copy{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+}
+
+@media (max-width: 600px){
+    .terms{
+        display: inline-block;
+    }
+    .part1{
+        padding: 0rem;
+    }
+}
+
